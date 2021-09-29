@@ -1,15 +1,13 @@
 package com.stateanalyzertest;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import com.statecensusanalyzer.MyException;
 import com.statecensusanalyzer.StateCensusAnalyzer;
 
-import junit.framework.Assert;
-
 public class StateAnalyzerTest {
 	
-	@SuppressWarnings("deprecation")
 	@Test
 	public void givenStateCensusShouldReturnNumberOfRecords()
 	{
